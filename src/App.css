@@ -1,0 +1,40 @@
+body {
+    direction: rtl;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  html, body, .navbar, .btn, .container {
+     font-family: 'Cairo', sans-serif !important;
+  }
+  
+.btn-primary , .primary {
+    background-color: #12287D !important ;
+   
+  }
+.btn-secondary , .secondary{
+  background-color:  #004368 !important;
+}
+
+  .t-primary{
+    color:#12287D !important;
+  }
+
+.mobile-bg {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-bg {
+    display: block;
+  }
+
+  .hero > div:first-child {
+    display: none;
+  }
+}
+
+
+  
